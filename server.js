@@ -1,4 +1,8 @@
-const app = require('express')();
+import express from 'express';
+
+const app = express();
+
+export { app };
 
 app.get('/', (req, res) => res.send('Zeyad Zidan'));
 
